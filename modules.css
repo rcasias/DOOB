@@ -1,0 +1,107 @@
+/* Styles for single items */
+
+/* Displays */
+.m-dsp-full {
+    height: 100vh;
+}
+.m-dis-half{
+    height: 50vh;
+}
+.m-dis-third{
+    height: 33vh;
+}
+
+.m-dsp-block{
+    display: block;
+}
+
+.m__50percent{
+    width: 50%;
+}
+.m__80percent{
+    width: 80%;
+}
+
+/* Buttons */
+.m-btn {
+    font-size: 1.5em;
+    line-height: 3em;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.m-btn-red {
+    background-color: #ff3946;
+    color: #fff;
+}
+
+.m-btn-round {
+    border-radius: 55px;
+}
+
+.m-btn-clear {
+    background: none;
+    color: #314584;
+}
+
+.m-no-border{
+    border: none;
+}
+
+/* Here, we'll use BEM for naming conventions */
+
+.title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.title__section {
+    text-transform: uppercase;
+    color: #ff3946;
+    font-size: 1.5em;
+}
+.title__description, .title__description--break-early {
+    text-transform: capitalize;
+    font-size: 3.5em;
+    color: #314584;
+}
+
+.title__description--break-early{
+    width: 60%;
+}
+
+.title-small-description{
+    text-transform: capitalize;
+    font-size: 2em;
+}
+
+.m__small-information-text{
+    font-size: 1.2em;
+    color: #314584;
+}
+
+.m__information-text{
+    font-size: 1.5em;
+    color: #314584;
+}
+
+.m__large-title{
+    font-size: 6em;
+}
+
+/*nav bar*/
+.m-navbar__menu-item{
+    padding-right: 60px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #314584;
+    line-height: 4.5em;
+}
+
+.frm{
+    line-height: 3.5em;
+    border: none;
+    background-color: rgba(125, 125, 125, .5);
+}
+

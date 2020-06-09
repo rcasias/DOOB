@@ -1,0 +1,74 @@
+.h-red-text {
+    color: #ff3946 !important;
+}
+.h-grey-text{
+    color: grey;
+}
+.h-blue-text{
+    color: #314584;
+}
+.h-white-text{
+    color: white;
+}
+.h-bolder{
+    font-weight: bolder;
+}
+.h-50percent{
+    width: 50%;
+}
+.h-shift100{
+    padding-left:100px;
+}
+.h-shift40{
+    padding-left:40px;
+}
+
+.h-background-blue{
+    background: #314584;
+}
+
+.h-small-text{
+    font-size: 1.1em;
+}
+.h-medium-text{
+    font-size: 1.5em;
+}
+.h-large-text{
+    font-size: 4em;
+}
+
+.h-uppercase{
+    text-transform: uppercase;
+}
+
+.h-padding-right{
+    padding-right: 20px;
+}
+.h-padding-left{
+    padding-left: 20px;
+}
+.h-no-margin-top{
+    margin-top: 0px;
+}
+
+.h-medium-padding-bottom{
+    padding-bottom: 30px;
+}
+
+.h-small-padding{
+    padding:10px;
+}
+.h-medium-padding{
+    padding: 30px;
+}
+.h-no-padding-left{
+    padding:10px 10px 10px 0px;
+}
+.h-added-line-height{
+    line-height: 25px;
+}
+
+.h-hover-red:hover{
+    background: #ff3946;
+    color: white;
+}
